@@ -184,7 +184,7 @@ export default function Ourdesign() {
           <div className="flex flex-col lg:flex-row items-center lg:space-x-8 ">
             <div className="lg:w-1/2 animate-zoom">
               <Image
-                src="/images/OurDesign/strategy.png"
+                src="/images/OurDesign/Strategy.png"
                 alt="strategy Image"
                 layout="responsive"
                 width={300}
@@ -296,7 +296,7 @@ export default function Ourdesign() {
           <div className="flex flex-col lg:flex-row items-center lg:space-x-8 ">
             <div className="lg:w-1/2 animate-zoom">
               <Image
-                src="/images/OurDesign/development.png"
+                src="/images/OurDesign/Development.png"
                 alt="Development Image"
                 layout="responsive"
                 width={300}
@@ -383,7 +383,7 @@ export default function Ourdesign() {
             </div>
             <div className="lg:w-1/2 animate-zoom">
               <Image
-                src="/images/OurDesign/testing.png"
+                src="/images/OurDesign/Testing.png"
                 alt="Testing Image"
                 layout="responsive"
                 width={300}
