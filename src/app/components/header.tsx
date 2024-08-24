@@ -37,12 +37,12 @@ const Header = () => {
           </Link>
         </div>
         <nav className="hidden md:flex space-x-6">
-          {navLinks.map((link) => {
+          {navLinks.map((link, i) => {
             const isActive = pathName === link.href;
             return (
               <Link
                 href={link.href}
-                key={link.name}
+                key={i}
                 className={
                   isActive
                     ? 'block py-2.5 font-bold text-yellow-500'
@@ -79,12 +79,12 @@ const Header = () => {
       {isClick && (
         <nav className="md:hidden bg-gray-800 py-4 px-7">
           <div className="flex flex-col">
-            {navLinks.map((link) => {
+            {navLinks.map((link, i) => {
               const isActive = pathName === link.href;
               return (
                 <Link
                   href={link.href}
-                  key={link.name}
+                  key={i}
                   className={
                     isActive
                       ? 'block py-2.5 font-bold text-yellow-500'
