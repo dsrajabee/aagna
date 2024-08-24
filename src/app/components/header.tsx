@@ -1,41 +1,104 @@
-import Image from "next/image";
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 const Header = () => {
+  const [isClick, setIsClick] = useState(false);
+  const pathName = usePathname();
+
+  const toggleMenu = () => {
+    setIsClick(!isClick);
+  };
+
+  const navLinks = [
+    { name: 'Home', href: '/' },
+    { name: 'About us', href: '/about' },
+    { name: 'Our Design Process', href: '/ourdesign' },
+    { name: 'Services', href: '/services' },
+    { name: 'Works', href: '/works' },
+    { name: 'Clients', href: '/clients' },
+    { name: 'Contact us', href: '/contact' },
+  ];
+
   return (
-    <header className="flex items-center justify-between p-4 bg-gray-800">
-      <div className="flex items-center">
-        <Image
-          src="/images/logo.png"
-          alt="Logo"
-          width={150}
-          height={50}
-          className="rounded-lg"
-        />
-        <h1 className="text-white ml-4">My Website</h1>
+    <header className=" text-white animate-fade-in">
+      <div className="container mx-auto flex items-center justify-between p-4">
+        <div className="flex items-center">
+          <Link href="/">
+            <Image
+              src="/images/logo.png"
+              alt="Logo"
+              width={150}
+              height={120}
+              className="rounded-lg"
+            />
+          </Link>
+        </div>
+        <nav className="hidden md:flex space-x-6">
+          {navLinks.map((link) => {
+            const isActive = pathName === link.href;
+            return (
+              <Link
+                href={link.href}
+                className={
+                  isActive
+                    ? 'block py-2.5 font-bold text-yellow-500'
+                    : 'block py-2.5'
+                }
+              >
+                {link.name}
+              </Link>
+            );
+          })}
+        </nav>
+        <div className="md:hidden flex items-center">
+          <button
+            className="text-white focus:outline-none"
+            onClick={toggleMenu}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
-      <nav className="space-x-4">
-        <a href="/" className="text-white">
-          Home
-        </a>
-        <a href="/about" className="text-white">
-          About us
-        </a>
-        <a href="/ourdesign" className="text-white">
-          Our Design Process
-        </a>
-        <a href="/services" className="text-white">
-          Services
-        </a>
-        <a href="/works" className="text-white">
-          Works
-        </a>
-        <a href="/blog" className="text-white">
-          Blog
-        </a>
-        <a href="/contact" className="text-white">
-          Contact us
-        </a>
-      </nav>
+      {isClick && (
+        <nav className="md:hidden bg-gray-800 py-4 px-7">
+          <div className="flex flex-col">
+            {navLinks.map((link) => {
+              // <a href={link.href} className="block py-2.5">
+              //   {link.name}
+              // </a>
+              const isActive = pathName === link.href;
+              return (
+                <Link
+                  href={link.href}
+                  className={
+                    isActive
+                      ? 'block py-2.5 font-bold text-yellow-500'
+                      : 'block py-2.5'
+                  }
+                >
+                  {link.name}
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
+      )}
     </header>
   );
 };

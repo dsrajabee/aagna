@@ -1,105 +1,14 @@
-import ContactBox from "@/app/components/contactbox";
-import Footer from "@/app/components/footer";
-import Navbar from "@/app/components/navbar";
-import Image from "next/image";
-import Link from "next/link";
-import useClient from "next/client";
-import dynamic from "next/dynamic";
-import AnimatedImage from "../components/AnimatedImage";
-import Card from "../components/cards";
-// const Navbar = dynamic(() => import('./components/navbar'), { client: { ssr: false } });
+import ContactBox from '@/app/components/contactbox';
+import Footer from '@/app/components/footer';
+import Image from 'next/image';
+import Link from 'next/link';
+import Card from '../components/cards';
+import Header from '../components/header';
 
 export default function Services() {
   return (
     <>
-      <header className=" text-white animate-fade-in">
-        <div className="container mx-auto flex items-center justify-between p-4">
-          <div className="flex items-center">
-            <Link href="/">
-              <Image
-                src="/images/logo.png"
-                alt="Logo"
-                width={150}
-                height={120}
-                className="rounded-lg"
-              />
-            </Link>
-          </div>
-          <nav className="hidden md:flex space-x-6">
-            <Link href="/" className="text-white">
-              Home
-            </Link>
-
-            {/* <Link href="/about">About us</Link> */}
-            <Link href="/about" className="text-white">
-              About us
-            </Link>
-            <Link href="/ourdesign" className="text-white">
-              Our Design Process
-            </Link>
-            <Link href="/services" className="text-[#FFC807] font-bold">
-              Services
-            </Link>
-            <Link href="/works" className="text-white">
-              Works
-            </Link>
-            <Link href="/clients" className="text-white">
-              Clients
-            </Link>
-            <Link href="/contact" className="text-white">
-              Contact us
-            </Link>
-          </nav>
-          <div className="md:hidden flex items-center">
-            <button
-              className="text-white focus:outline-none"
-              // onClick={toggleMenu}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-        {/* {isOpen && ( */}
-        <nav className="md:hidden bg-gray-800 p-2">
-          <div className="flex flex-col space-y-2">
-            <a href="/" className="block text-white">
-              Home
-            </a>
-            <a href="/about" className="block text-white">
-              About us
-            </a>
-            <a href="/ourdesign" className="block text-white">
-              Our Design Process
-            </a>
-            <a href="/services" className="block text-white">
-              Services
-            </a>
-            <a href="/works" className="block text-white">
-              Works
-            </a>
-            <a href="/clients" className="block text-white">
-              Clients
-            </a>
-            <a href="/contact" className="block text-[#FFC807] font-bold">
-              Contact us
-            </a>
-          </div>
-        </nav>
-        {/* )} */}
-      </header>
+      <Header />
       <div className="relative flex flex-col items-center justify-center  py-2 bg-black text-white">
         {/* <AnimatedImage /> */}
 
@@ -124,7 +33,7 @@ export default function Services() {
                     Our Services
                   </h1>
                   <p className="text-lg mb-1 font-light text-white">
-                    Best solution for the{" "}
+                    Best solution for the{' '}
                     <span className="text-[#FFC807] italic ">dreams </span>
                   </p>
                 </div>
@@ -140,7 +49,7 @@ export default function Services() {
             href="/branding"
             className="transform transition-transform duration-500 hover:scale-110"
           >
-            {" "}
+            {' '}
             <Card
               image="/images/Services/branding1.png"
               title="Brand"
@@ -213,7 +122,7 @@ export default function Services() {
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
           >
-            {" "}
+            {' '}
             <Card
               image="/images/Services/social.png"
               title="Social Media Mktg"
@@ -249,7 +158,6 @@ export default function Services() {
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
           >
-           
             <Card
               image="/images/Services/sms.png"
               title="SMS Mktg"
