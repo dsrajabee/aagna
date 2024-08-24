@@ -18,7 +18,7 @@ export default function Home() {
         <div className="relative z-10 flex flex-col h-screen justify-between text-white">
           <Header />
 
-          <div className="text-center space-y-2 mb-6">
+          <div className=" sm:p-5 text-center space-y-2 mb-6">
             <h3 className="text-xl font-normal">Welcome to</h3>
 
             <div className="relative overflow-hidden h-[68px]">

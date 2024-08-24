@@ -53,7 +53,7 @@ export default function About() {
         </main>
       </div>
 
-      <div className="lg:flex container mx-auto gap-10 mt-20 mb-20 ">
+      <div className=" lg:flex container mx-auto gap-10 px-6 mb-10">
         {/* <div className="w-1/3 animate-slide-left"> */}
         <div className="lg:w-1/3 lg:pb-0 xl:pb-0 ">
           <img

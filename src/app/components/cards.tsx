@@ -16,7 +16,9 @@ const Card: React.FC<CardProps> = ({ image, title, description, link }) => {
         style={{ backgroundImage: `url(${image})` }}
       ></div>
       <div className="p-6">
-        <h2 className="text-2xl font-semibold mb-2 text-center capitalize text-yellow-400">{title}</h2>
+        <h2 className="text-2xl font-semibold mb-2 text-center capitalize text-yellow-400">
+          {title}
+        </h2>
         <p className="text-white text-base text-left mb-4">{description}</p>
         <a
           href={''}

@@ -43,7 +43,7 @@ export default function Services() {
         </div>
       </div>
 
-      <main className="container mx-auto">
+      <main className="mx-6 lg:container lg:mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="/branding"

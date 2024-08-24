@@ -2,10 +2,12 @@ import Link from 'next/link';
 
 const ContactBox = () => {
   return (
-    <div className="bg-yellow-400 py-8 relative">
+    <div className="bg-yellow-400 py-8 relative px-6">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center z-0"
-           style={{ backgroundImage: "url('/images/ContactUs/contactbg.png')" }}>
+      <div
+        className="absolute inset-0 bg-cover bg-center z-0"
+        style={{ backgroundImage: "url('/images/ContactUs/contactbg.png')" }}
+      >
         {/* Overlay to maintain yellow color and opacity */}
         <div className="absolute inset-0 bg-yellow-400 opacity-75 z-10"></div>
       </div>
