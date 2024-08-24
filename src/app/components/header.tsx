@@ -42,6 +42,7 @@ const Header = () => {
             return (
               <Link
                 href={link.href}
+                key={link.name}
                 className={
                   isActive
                     ? 'block py-2.5 font-bold text-yellow-500'
@@ -79,13 +80,11 @@ const Header = () => {
         <nav className="md:hidden bg-gray-800 py-4 px-7">
           <div className="flex flex-col">
             {navLinks.map((link) => {
-              // <a href={link.href} className="block py-2.5">
-              //   {link.name}
-              // </a>
               const isActive = pathName === link.href;
               return (
                 <Link
                   href={link.href}
+                  key={link.name}
                   className={
                     isActive
                       ? 'block py-2.5 font-bold text-yellow-500'
