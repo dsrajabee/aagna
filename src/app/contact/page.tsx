@@ -38,8 +38,8 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex justify-center gap-8 mb-8 ">
-            <div className="text-white text-center bg-[#3D3D3D] w-1/3 py-10">
+          <div className="flex justify-center gap-8 mb-8 flex-col md:flex-row ">
+            <div className="text-white text-center bg-[#3D3D3D] md:w-1/3 py-10">
               <p className="mb-6 text-lg">Madurai Office</p>
               <span className="font-extralight">
                 64C/1, 3rd Floor,
@@ -50,9 +50,9 @@ export default function Contact() {
               </span>
             </div>
 
-            <div className=" text-center bg-[#FFC807] text-black w-1/3 py-10">
+            <div className=" text-center bg-[#FFC807] text-black md:w-1/3 py-10">
               <p className="mb-6 text-lg font-semibold">Sivakasi Office</p>
-              <span className="font-extralight">
+              <span className=" text-black">
                 110i, Velayutham Road,
                 <br />
                 Parasakthi Colony,
@@ -61,7 +61,7 @@ export default function Contact() {
                 Tamil Nadu - 626123
               </span>
             </div>
-            <div className="text-white text-center bg-[#3D3D3D] w-1/3 py-10">
+            <div className="text-white text-center bg-[#3D3D3D] md:w-1/3 py-10">
               <span className="flex justify-center">
                 <Image
                   src="/images/ContactUs/phone.png"
@@ -90,13 +90,13 @@ export default function Contact() {
           </div>
 
           <form className="flex justify-center py-6">
-            <div className="w-full max-w-2xl bg-black rounded-lg shadow-lg text-white">
+            <div className=" px-10 py-6 w-full max-w-2xl bg-black rounded-lg shadow-lg text-white">
               <h2 className="text-lg font-medium text-center mb-12">
                 Contact Information
               </h2>
 
-              <div className="flex">
-                <div className="mb-4">
+              <div className="flex flex-col md:flex-row">
+                <div className="mb-4 w-full md:w-1/2">
                   <label htmlFor="name" className="block text-sm font-medium">
                     Name *
                   </label>
@@ -105,11 +105,11 @@ export default function Contact() {
                     name="name"
                     type="text"
                     autoComplete="name"
-                    className="block w-80 mt-1 text-[#ffc807] bg-black border-b px-4 py-2 border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
+                    className="block w-full mt-1 text-[#ffc807] bg-black border-b px-4 py-2 border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
                   />
                 </div>
 
-                <div className="mb-4 ml-8">
+                <div className="mb-4 w-full md:w-1/2 md:ml-8">
                   <label htmlFor="email" className="block text-sm font-medium">
                     Email Address *
                   </label>
@@ -118,13 +118,13 @@ export default function Contact() {
                     name="email"
                     type="email"
                     autoComplete="email"
-                    className="block w-80 bg-black text-[#ffc807] border-b px-4 mt-1 py-2 border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
+                    className="block w-full bg-black text-[#ffc807] border-b px-4 mt-1 py-2 border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
                   />
                 </div>
               </div>
 
-              <div className="flex">
-                <div className="mb-4">
+              <div className="flex flex-col md:flex-row">
+                <div className="mb-4 w-full md:w-1/2">
                   <label htmlFor="mobile" className="block text-sm font-medium">
                     Mobile *
                   </label>
@@ -133,11 +133,11 @@ export default function Contact() {
                     name="mobile"
                     type="number"
                     autoComplete="mobile"
-                    className="block w-80 bg-black text-[#ffc807] border-b px-4 mt-1 py-2  border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
+                    className="block w-full bg-black text-[#ffc807] border-b px-4 mt-1 py-2  border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
                   />
                 </div>
 
-                <div className="mb-4 ml-8">
+                <div className="mb-4 w-full md:w-1/2 md:ml-8">
                   <label
                     htmlFor="Services"
                     className="block text-sm font-medium"
@@ -149,7 +149,7 @@ export default function Contact() {
                     name="Services"
                     type="text"
                     autoComplete="Services"
-                    className="block w-80 mt-1 py-2 text-[#ffc807] bg-black border-b px-4 border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
+                    className="block w-full mt-1 py-2 text-[#ffc807] bg-black border-b px-4 border-[#616060] shadow-sm focus:border-indigo-600 focus:ring focus:ring-indigo-600 focus:ring-opacity-50 sm:text-sm"
                   />
                 </div>
               </div>

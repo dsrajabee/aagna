@@ -18,17 +18,18 @@ export default function Home() {
         <div className="relative z-10 flex flex-col h-screen justify-between text-white">
           <Header />
 
-          <div className=" sm:p-5 text-center space-y-2 mb-6">
-            <h3 className="text-xl font-normal">Welcome to</h3>
+          <div className="p-5 text-center space-y-2 mb-6 w-full  ">
+            {/* <h3 className="text-xl font-normal">Welcome to</h3> */}
 
-            <div className="relative overflow-hidden h-[68px]">
-              <h1 className="text-6xl font-bold text-[#FFC807]  animate-textSlide">
-                aagna Creatives
+            <div className="relative overflow-hidden flex justify-center">
+              <h1 className=" text-3xl md:text-5xl leading-snug md:w-[60%] md:leading-[65px] font-bold text-[#FFC807]  animate-textSlide">
+                {/* aagna Creatives */}
+                Transforming Ideas into a Multiverse of Creative Possibilities
               </h1>
             </div>
-            <h3 className="text-xl font-normal pt-1">
+            {/* <h3 className="text-xl font-normal pt-1">
               Transforming Ideas into a Multiverse of Creative Possibilities
-            </h3>
+            </h3> */}
           </div>
         </div>
       </div>

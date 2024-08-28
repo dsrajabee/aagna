@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <header className=" text-white animate-fade-in">
-      <div className="container mx-auto flex items-center justify-between p-4">
+      <div className="container mx-auto flex items-center justify-between py-8 px-4">
         <div className="flex items-center">
           <Link href="/">
             <Image

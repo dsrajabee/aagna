@@ -34,207 +34,27 @@ export default function Clients() {
       </div>
 
       <main className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-6">
-          <div className="transform transition-transform duration-500 hover:scale-110  max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-500 ">
-            <div className="p-6">
-              <a
-                href="https://virtuotechnologies.com"
-                className="pointer"
-                target="_blank"
-              >
-                <img
-                  src="/images/Clients/Virtuo.png"
-                  alt="Virtuo Technologies"
-                  className="w-full rounded-xl p-1 "
-                />
-              </a>
+        <div className="text-white flex justify-between text-center mb-8">
+          <div className=" w-1/3 text-center flex flex-col justify-center items-center space-y-6">
+            <div className=" w-40 h-40 border border-gray-500 text-3xl text-center rounded-full flex justify-center items-center">
+              1000+
             </div>
+            <h1 className="text-2xl font-extralight">Projects</h1>
           </div>
 
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl transform transition-transform duration-500 hover:scale-110 overflow-hidden shadow-lg bg-white  border border-yellow-500 ">
-            <div className="px-6 pt-10">
-              <img
-                src="/images/Clients/data.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
+          <div className=" w-1/3 text-center flex flex-col justify-center items-center space-y-6">
+            <div className=" w-40 h-40 border border-gray-500 text-3xl text-center rounded-full flex justify-center items-center">
+              500+
             </div>
+            <h1 className="text-2xl font-extralight">Clients</h1>
           </div>
 
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl transform transition-transform duration-500 hover:scale-110 overflow-hidden shadow-lg bg-white  border border-yellow-400 ">
-            <div className="pt-6">
-              <img
-                src="/images/Clients/Aksha.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
+          <div className=" w-1/3 text-center flex flex-col justify-center items-center space-y-6">
+            <div className=" w-40 h-40 border border-gray-500 text-3xl text-center rounded-full flex justify-center items-center">
+              400+
             </div>
+            <h1 className="text-2xl font-extralight">Appreciations</h1>
           </div>
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl transform transition-transform duration-500 hover:scale-110 overflow-hidden shadow-lg bg-white  border border-yellow-400 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/Falcon.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1  "
-              />
-            </div>
-          </div>
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl transform transition-transform duration-500 hover:scale-110 overflow-hidden shadow-lg bg-white  border border-yellow-500 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/HRF.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-          {/* <Link href='/graphicsdesign'>
-           <Card
-            image="/images/graphics_design.png"
-            title="Logo"
-            description="Modern and innovative graphic designs that drive customers' attention ...."
-            link="#"
-           />
-          </Link> */}
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-6">
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-500 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/Innovation.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-400 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/JL.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-400 ">
-            <div className="px-6 pt-9">
-              <img
-                src="/images/Clients/Kadit.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-500 to-black ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/Manju.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-500 to-black ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/SreeScreens.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-
-          {/* <Link href='/graphicsdesign'>
-           <Card
-            image="/images/graphics_design.png"
-            title="Logo"
-            description="Modern and innovative graphic designs that drive customers' attention ...."
-            link="#"
-           />
-          </Link> */}
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-6">
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-500 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/Vibe.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-400 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/RG Tax.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-400 ">
-            <div className="pt-7">
-              <img
-                src="/images/Clients/Sakthi.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-400 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/Shiva.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-500 ">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/Space.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 "
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-6">
-          <div className="max-w-sm transform transition-transform duration-500 hover:scale-110 rounded-2xl overflow-hidden shadow-lg bg-white  border border-yellow-400 mb-24">
-            <div className="p-6 flex justify-center">
-              <img
-                src="/images/Clients/Millet.png"
-                alt="Image 1"
-                width={100}
-                height={50}
-                className=" "
-              />
-            </div>
-          </div>
-          {/* <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 ">
-            <div className="p-6">
-              <img
-                src="/images/Logos/ISmart.png"
-                alt="Image 1"
-                className="w-full rounded-xl p-1 transform transition-transform duration-500 hover:scale-110"
-              />
-            </div>
-          </div> */}
-
-          {/* <Link href='/graphicsdesign'>
-           <Card
-            image="/images/graphics_design.png"
-            title="Logo"
-            description="Modern and innovative graphic designs that drive customers' attention ...."
-            link="#"
-           />
-          </Link> */}
         </div>
       </main>
 

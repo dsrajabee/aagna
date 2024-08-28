@@ -52,7 +52,19 @@ export default function Services() {
             {' '}
             <Card
               image="/images/Services/branding1.png"
-              title="Brand"
+              title="Business Consulting"
+              description="A Logo is a design symbolizing one's organization. It is a design..."
+              link=""
+            />
+          </a>
+          <a
+            href="/branding"
+            className="transform transition-transform duration-500 hover:scale-110"
+          >
+            {' '}
+            <Card
+              image="/images/Services/branding1.png"
+              title="Branding"
               description="A Logo is a design symbolizing one's organization. It is a design..."
               link=""
             />
@@ -63,11 +75,14 @@ export default function Services() {
           >
             <Card
               image="/images/Services/graphics_design.png"
-              title="Graphics Design"
+              title="Creative Graphic Design"
               description="Modern and innovative graphic designs that drive customers' attention ...."
               link="#"
             />
           </a>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
@@ -79,9 +94,6 @@ export default function Services() {
               link="#"
             />
           </a>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
@@ -104,6 +116,9 @@ export default function Services() {
               link="#"
             />
           </a>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
@@ -115,9 +130,6 @@ export default function Services() {
               link="#"
             />
           </a>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
@@ -141,20 +153,20 @@ export default function Services() {
               link="#"
             />
           </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
               image="/images/Services/email.png"
-              title="Email Mktg"
+              title="Mobile App Development"
               description="Carry out your digital promotions and marketing campaigns through highly..."
               link="#"
             />
           </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <a
+          {/* <a
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
           >
@@ -164,7 +176,7 @@ export default function Services() {
               description="Reach out to your customers, potential customers, or any other contact ..."
               link=""
             />
-          </a>
+          </a> */}
           <a
             href="/"
             className="transform transition-transform duration-500 hover:scale-110"
@@ -182,7 +194,7 @@ export default function Services() {
           >
             <Card
               image="/images/Services/photography.png"
-              title="Photo"
+              title="Product Photography"
               description="We take photos that are worth a thousand words as we catch the..."
               link="#"
             />
