@@ -34,22 +34,22 @@ export default function Clients() {
       </div>
 
       <main className="container mx-auto">
-        <div className="text-white flex justify-between text-center mb-8">
-          <div className=" w-1/3 text-center flex flex-col justify-center items-center space-y-6">
+        <div className="text-white flex flex-col space-y-12 md:flex-row justify-between text-center mb-8">
+          <div className="  text-center md:w-1/3 flex flex-col justify-center items-center space-y-6">
             <div className=" w-40 h-40 border border-gray-500 text-3xl text-center rounded-full flex justify-center items-center">
               1000+
             </div>
             <h1 className="text-2xl font-extralight">Projects</h1>
           </div>
 
-          <div className=" w-1/3 text-center flex flex-col justify-center items-center space-y-6">
+          <div className="  md:w-1/3 text-center flex flex-col justify-center items-center space-y-6">
             <div className=" w-40 h-40 border border-gray-500 text-3xl text-center rounded-full flex justify-center items-center">
               500+
             </div>
             <h1 className="text-2xl font-extralight">Clients</h1>
           </div>
 
-          <div className=" w-1/3 text-center flex flex-col justify-center items-center space-y-6">
+          <div className="  md:w-1/3 text-center flex flex-col justify-center items-center space-y-6">
             <div className=" w-40 h-40 border border-gray-500 text-3xl text-center rounded-full flex justify-center items-center">
               400+
             </div>
