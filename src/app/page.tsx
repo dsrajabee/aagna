@@ -22,7 +22,7 @@ export default function Home() {
             {/* <h3 className="text-xl font-normal">Welcome to</h3> */}
 
             <div className="relative overflow-hidden flex justify-center">
-              <h1 className=" text-3xl md:text-5xl leading-snug md:w-[60%] md:leading-[65px] font-bold text-[#FFC807]  animate-textSlide">
+              <h1 className=" text-2xl md:text-5xl leading-snug md:w-[60%] md:leading-[65px] md:font-semibold text-[#FFC807]  animate-textSlide">
                 {/* aagna Creatives */}
                 Transforming Ideas into a Multiverse of Creative Possibilities
               </h1>
