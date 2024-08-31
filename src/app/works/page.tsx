@@ -9,7 +9,7 @@ export default function Works() {
   return (
     <>
       <Header />
-      <div className="relative flex flex-col items-center justify-center  py-2 bg-black text-white">
+      <div className="relative flex flex-col items-center justify-center px-6   py-2 bg-black text-white">
         <AnimatedImage />
 
         <div className="flex justify-center">
@@ -33,9 +33,35 @@ export default function Works() {
         </div>
       </div>
 
-      <main className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 my-24">
+      <main className="mx-6 mt-6  md:mx-auto md:container text-center  ">
+        <div className=" space-x-6 space-y-6 font-light text-sm w-3/5 m-auto">
+          <button className="text-gray-300  border py-2 px-6 border-gray-400">
+            SHOW ALL
+          </button>
+          <button className="text-gray-300 border py-2 px-6 border-gray-400">
+            LOGO DESIGN
+          </button>
+          <button className="text-gray-300 border py-2 px-6 border-gray-400">
+            BRANDING
+          </button>
+          <button className="text-gray-300 border py-2 px-6 border-gray-400">
+            PRINT DESIGN
+          </button>
+          <button className="text-gray-300 border py-2 px-6 border-gray-400">
+            PACKAGING DESIGN
+          </button>
+          <button className="text-gray-300 border py-2 px-6 border-gray-400">
+            SOCIAL MEDIA DESIGN
+          </button>
+          <button className="text-gray-300 border py-2 px-6 border-gray-400">
+            POSTER DESIGN
+          </button>
+          <button className="text-gray-300 border py-2 px-6 border-gray-400">
+            2D ANIMATION
+          </button>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 place-items-center">
+          <div className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 md:my-24">
             <div
               className="h-72 bg-cover bg-center "
               style={{ backgroundImage: "url('/images/Works/websites.png')" }}
@@ -49,7 +75,7 @@ export default function Works() {
             </div>
           </div>
 
-          <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 my-24">
+          <div className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 md:my-24">
             <div
               className="h-72 bg-cover bg-center "
               style={{ backgroundImage: "url('/images/Works/logo_works.png')" }}
@@ -62,7 +88,7 @@ export default function Works() {
               </Link>
             </div>
           </div>
-          <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 my-24">
+          <div className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 md:my-24">
             <div
               className="h-72 bg-cover bg-center "
               style={{
