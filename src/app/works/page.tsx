@@ -1,11 +1,45 @@
+'use client';
+import React, { useState } from 'react';
+import { motion, AnimatePresence, filterProps } from 'framer-motion';
+
 import ContactBox from '@/app/components/contactbox';
 import Footer from '@/app/components/footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import AnimatedImage from '../components/AnimatedImage';
 import Header from '../components/header';
+import FilterButtons from '../components/FilterButtons';
 
 export default function Works() {
+  const [activeFilter, setActiveFilter] = useState('SHOW ALL');
+
+  const works = [
+    {
+      type: 'LOGO DESIGN',
+      image: '/images/Works/logo_works.png',
+      title: 'Logo',
+      link: '/logodesigns',
+    },
+    {
+      type: 'BRANDING',
+      image: '/images/Works/graphics_works.png',
+      title: 'Graphics Designs',
+      link: '/branding',
+    },
+    {
+      type: 'PRINT DESIGN',
+      image: '/images/Works/websites.png',
+      title: 'Websites',
+      link: '/websites',
+    },
+    // Add more works as needed
+  ];
+
+  const filteredWorks =
+    activeFilter === 'SHOW ALL'
+      ? works
+      : works.filter((work) => work.type === activeFilter);
+
   return (
     <>
       <Header />
@@ -34,84 +68,47 @@ export default function Works() {
       </div>
 
       <main className="mx-6 mt-6  md:mx-auto md:container text-center  ">
-        <div className=" space-x-6 space-y-6 font-light text-sm w-3/5 m-auto">
-          <button className="text-gray-300  border py-2 px-6 border-gray-400">
-            SHOW ALL
-          </button>
-          <button className="text-gray-300 border py-2 px-6 border-gray-400">
-            LOGO DESIGN
-          </button>
-          <button className="text-gray-300 border py-2 px-6 border-gray-400">
-            BRANDING
-          </button>
-          <button className="text-gray-300 border py-2 px-6 border-gray-400">
-            PRINT DESIGN
-          </button>
-          <button className="text-gray-300 border py-2 px-6 border-gray-400">
-            PACKAGING DESIGN
-          </button>
-          <button className="text-gray-300 border py-2 px-6 border-gray-400">
-            SOCIAL MEDIA DESIGN
-          </button>
-          <button className="text-gray-300 border py-2 px-6 border-gray-400">
-            POSTER DESIGN
-          </button>
-          <button className="text-gray-300 border py-2 px-6 border-gray-400">
-            2D ANIMATION
-          </button>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 place-items-center">
-          <div className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 md:my-24">
-            <div
-              className="h-72 bg-cover bg-center "
-              style={{ backgroundImage: "url('/images/Works/websites.png')" }}
-            ></div>
-            <div className="p-6">
-              <Link href="/websites">
-                <h2 className="text-2xl font-semibold mb-2 text-center text-yellow-400">
-                  Websites
-                </h2>
-              </Link>
-            </div>
-          </div>
+        <FilterButtons
+          activeFilter={activeFilter}
+          setActiveFilter={setActiveFilter}
+        />
 
-          <div className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 md:my-24">
-            <div
-              className="h-72 bg-cover bg-center "
-              style={{ backgroundImage: "url('/images/Works/logo_works.png')" }}
-            ></div>
-            <div className="p-6">
-              <Link href="/logodesigns">
-                <h2 className="text-2xl font-semibold mb-2 text-center text-yellow-400">
-                  Logo
-                </h2>
-              </Link>
-            </div>
-          </div>
-          <div className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-black  border border-yellow-400 md:my-24">
-            <div
-              className="h-72 bg-cover bg-center "
-              style={{
-                backgroundImage: "url('/images/Works/graphics_works.png')",
-              }}
-            ></div>
-            <span className="p-6">
-              <Link href="/branding">
-                <h2 className="text-2xl font-semibold mb-2 text-center text-yellow-400">
-                  Graphics Designs
-                </h2>
-              </Link>
-            </span>
-          </div>
-          {/* <Link href='/graphicsdesign'>
-           <Card
-            image="/images/graphics_design.png"
-            title="Logo"
-            description="Modern and innovative graphic designs that drive customers' attention ...."
-            link="#"
-           />
-          </Link> */}
-        </div>
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 place-items-center"
+          layout
+        >
+          <AnimatePresence mode="popLayout">
+            {filteredWorks.map((work, index) => (
+              <motion.div
+                key={work.title}
+                layout
+                layoutId={work.title}
+                className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-black border border-yellow-400 md:my-24"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.8 }}
+                transition={{
+                  opacity: { duration: 0.3 },
+                  layout: { duration: 0.3 },
+                  scale: { duration: 0.3 },
+                }}
+              >
+                <motion.div
+                  className="h-72 bg-cover bg-center"
+                  style={{ backgroundImage: `url('${work.image}')` }}
+                  layoutId={`image-${work.title}`}
+                ></motion.div>
+                <motion.div className="p-6" layoutId={`content-${work.title}`}>
+                  <Link href={work.link}>
+                    <h2 className="text-2xl font-semibold mb-2 text-center text-yellow-400">
+                      {work.title}
+                    </h2>
+                  </Link>
+                </motion.div>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+        </motion.div>
       </main>
 
       <ContactBox />

@@ -1,9 +1,11 @@
+'use client';
 import ContactBox from '@/app/components/contactbox';
 import Footer from '@/app/components/footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import AnimatedImage from '../components/AnimatedImage';
 import Header from '../components/header';
+import TestimonialSlider from '../components/TestimonialSlider';
 
 export default function Clients() {
   return (
@@ -57,6 +59,8 @@ export default function Clients() {
           </div>
         </div>
       </main>
+
+      <TestimonialSlider />
 
       <ContactBox />
       <Footer />
