@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from './components/header';
+import Footer from './components/footer';
 
 export default function Home() {
   return (
@@ -33,6 +34,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <footer className="bg-black text-white text-center py-2.5">
+        <div className="container mx-auto">
+          <p className=" captilize text-[#FFC807]">Aagna Creatives</p>
+          <p className=" captilize">copyrights © 2024 All Rights Reserved. </p>
+        </div>
+      </footer>
     </>
   );
 }

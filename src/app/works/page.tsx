@@ -17,22 +17,45 @@ export default function Works() {
     {
       type: 'LOGO DESIGN',
       image: '/images/Works/logo_works.png',
-      title: 'Logo',
-      link: '/logodesigns',
+      title: 'Logo Design',
+      link: '/works/logodesigns',
     },
     {
       type: 'BRANDING',
       image: '/images/Works/graphics_works.png',
-      title: 'Graphics Designs',
-      link: '/branding',
+      title: 'Branding',
+      link: '/works/branding',
     },
     {
       type: 'PRINT DESIGN',
       image: '/images/Works/websites.png',
-      title: 'Websites',
+      title: 'Print Design',
+      link: '/works/printdesign',
+    },
+    {
+      type: 'PACKAGING DESIGN',
+      image: '/images/Works/websites.png',
+      title: 'Packaging Design',
+      link: '/works/packagingdesigns',
+    },
+    {
+      type: 'SOCIAL MEDIA DESIGN',
+      image: '/images/Works/websites.png',
+      title: 'Social Media Design',
+      link: '/works/socialmedia',
+    },
+    {
+      type: 'POSTER DESIGN',
+      image: '/images/Works/websites.png',
+      title: 'Poster Design',
       link: '/websites',
     },
-    // Add more works as needed
+    {
+      type: '2D ANIMATION',
+      image: '/images/Works/websites.png',
+      title: '2D Animation',
+      link: '/websites',
+    },
   ];
 
   const filteredWorks =

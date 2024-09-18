@@ -1,0 +1,165 @@
+import ContactBox from '@/app/components/contactbox';
+import Footer from '@/app/components/footer';
+import Image from 'next/image';
+import Link from 'next/link';
+import useClient from 'next/client';
+import dynamic from 'next/dynamic';
+import AnimatedImage from '../../components/AnimatedImage';
+import Header from '@/app/components/header';
+
+// const Navbar = dynamic(() => import('./components/navbar'), { client: { ssr: false } });
+
+export default function PackagingDesigns() {
+  // useClient();
+  return (
+    <>
+      <Header />
+      <div className="relative flex flex-col items-center justify-center  py-2 bg-black text-white">
+        {/* <AnimatedImage /> */}
+
+        <div className="flex justify-center">
+          <div className="flex justify-center items-center self-center h-[350px]">
+            <div className="text-center">
+              <div>
+                <h1 className="text-4xl font-bold mb-4 text-[#FFC807] ">
+                  Best Packaging Design
+                </h1>
+                <p className="text-lg">
+                  Showcasing top-tier{' '}
+                  <span className="text-[#FFC807]">packaging design</span>{' '}
+                  solutions
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main className="container mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12 gap-6">
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/aara_tea.jpg"
+                alt="cloudlight"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/bannaco_chapathi.jpg"
+                alt="flux"
+                className="w-full rounded-xl p-0.5"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/bavani.jpg"
+                alt="bavani"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/coffee1.jpg"
+                alt="coffee1"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/coffee2.jpg"
+                alt="coffee2"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/cozmio.jpg"
+                alt="cozmio"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/cupcake.jpg"
+                alt="cupcake"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/dragon_noodles.jpg"
+                alt="dragon_noodles"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/dyka.jpg"
+                alt="dyka"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/GJ_herbals.jpg"
+                alt="GJ_herbals"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/packaging.jpg"
+                alt="packaging"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/suderjpg.jpg"
+                alt="suderjpg"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
+            <div className="p-6">
+              <img
+                src="/images/Works/packaging-designs/ultrra.jpg"
+                alt="ultrra"
+                className="w-full rounded-xl p-1"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <ContactBox />
+      <Footer />
+    </>
+  );
+}
