@@ -36,8 +36,8 @@ export default function SocialMedia() {
 
       <main className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12 gap-6">
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/social-media/smm1.jpg"
                 alt="smm1"
@@ -46,8 +46,8 @@ export default function SocialMedia() {
             </div>
           </div>
 
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/social-media/smm2.jpg"
                 alt="flux"

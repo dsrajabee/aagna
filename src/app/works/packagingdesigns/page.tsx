@@ -37,8 +37,8 @@ export default function PackagingDesigns() {
 
       <main className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12 gap-6">
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/aara_tea.jpg"
                 alt="cloudlight"
@@ -47,8 +47,8 @@ export default function PackagingDesigns() {
             </div>
           </div>
 
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/bannaco_chapathi.jpg"
                 alt="flux"
@@ -56,8 +56,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/bavani.jpg"
                 alt="bavani"
@@ -65,8 +65,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/coffee1.jpg"
                 alt="coffee1"
@@ -74,8 +74,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/coffee2.jpg"
                 alt="coffee2"
@@ -83,8 +83,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/cozmio.jpg"
                 alt="cozmio"
@@ -92,8 +92,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/cupcake.jpg"
                 alt="cupcake"
@@ -101,8 +101,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/dragon_noodles.jpg"
                 alt="dragon_noodles"
@@ -110,8 +110,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/dyka.jpg"
                 alt="dyka"
@@ -119,8 +119,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/GJ_herbals.jpg"
                 alt="GJ_herbals"
@@ -128,8 +128,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/packaging.jpg"
                 alt="packaging"
@@ -137,8 +137,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/suderjpg.jpg"
                 alt="suderjpg"
@@ -146,8 +146,8 @@ export default function PackagingDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/packaging-designs/ultrra.jpg"
                 alt="ultrra"

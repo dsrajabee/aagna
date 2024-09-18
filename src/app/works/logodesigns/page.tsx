@@ -36,8 +36,8 @@ export default function LogoDesigns() {
 
       <main className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12 gap-6">
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/cloudlight.jpg"
                 alt="cloudlight"
@@ -46,8 +46,8 @@ export default function LogoDesigns() {
             </div>
           </div>
 
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/flux.jpg"
                 alt="flux"
@@ -55,8 +55,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/gurru.jpg"
                 alt="Gurru"
@@ -64,8 +64,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/kadit.jpg"
                 alt="Kadit"
@@ -73,8 +73,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/mr.mech.jpg"
                 alt="mr.mech"
@@ -82,8 +82,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/nibali.jpg"
                 alt="Nibali"
@@ -91,8 +91,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/rajeshwari.jpg"
                 alt="Rajeshwari"
@@ -100,8 +100,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/TSP.jpg"
                 alt="TSP"
@@ -109,8 +109,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/vibeenergy.jpg"
                 alt="VIBEENERGY"
@@ -118,8 +118,8 @@ export default function LogoDesigns() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500">
+            <div className="md:p-6">
               <img
                 src="/images/Works/logo/vistharah.jpg"
                 alt="vistharah"

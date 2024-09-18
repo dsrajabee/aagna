@@ -36,8 +36,8 @@ export default function Branding() {
 
       <main className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12 gap-6">
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/branding/finder_branding_template.jpg"
                 alt="cloudlight"
@@ -46,8 +46,8 @@ export default function Branding() {
             </div>
           </div>
 
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/branding/predart_branding_template.jpg"
                 alt="flux"
@@ -55,8 +55,8 @@ export default function Branding() {
               />
             </div>
           </div>
-          <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500 ">
-            <div className="p-6">
+          <div className=" overflow-hidden shadow-lg bg-black  md:border md:border-gray-500 ">
+            <div className="md:p-6">
               <img
                 src="/images/Works/branding/rmaa_branding_template.jpg"
                 alt="Gurru"
