@@ -103,7 +103,7 @@ export default function LogoDesigns() {
           <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
             <div className="p-6">
               <img
-                src="/images/Works/logo/tSP.jpg"
+                src="/images/Works/logo/TSP.jpg"
                 alt="TSP"
                 className="w-full  rounded-xl p-1"
               />
@@ -121,8 +121,8 @@ export default function LogoDesigns() {
           <div className=" overflow-hidden shadow-lg bg-black  border border-gray-500">
             <div className="p-6">
               <img
-                src="/images/Works/logo/vibeenergy.jpg"
-                alt="VIBEENERGY"
+                src="/images/Works/logo/vistharah.jpg"
+                alt="vistharah"
                 className="w-full  rounded-xl p-1"
               />
             </div>
