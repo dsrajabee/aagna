@@ -25,7 +25,8 @@ export default function Home() {
             <div className="relative overflow-hidden flex justify-center">
               <h1 className=" text-2xl md:text-5xl leading-snug md:w-[60%] md:leading-[65px] md:font-semibold text-[#FFC807]  animate-textSlide">
                 {/* aagna Creatives */}
-                Transforming Ideas into a Multiverse of Creative Possibilities
+                {/* Transforming Ideas into a Multiverse of Creative Possibilities */}
+                Transform Your Business with Aagna Creatives
               </h1>
             </div>
             {/* <h3 className="text-xl font-normal pt-1">

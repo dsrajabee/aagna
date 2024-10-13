@@ -46,8 +46,8 @@ export default function Services() {
       <main className="mx-6 lg:container lg:mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <a
-            href="/branding"
-            className="transform transition-transform duration-500 hover:scale-110"
+            href="/services/businessconsulting"
+            // className="transform transition-transform duration-500 hover:scale-110"
           >
             {' '}
             <Card
@@ -58,8 +58,8 @@ export default function Services() {
             />
           </a>
           <a
-            href="/branding"
-            className="transform transition-transform duration-500 hover:scale-110"
+            href="/services/branding"
+            // className="transform transition-transform duration-500 hover:scale-110"
           >
             {' '}
             <Card
@@ -70,8 +70,8 @@ export default function Services() {
             />
           </a>
           <a
-            href="/graphicsdesign"
-            className="transform transition-transform duration-500 hover:scale-110"
+            href="/services/graphicsdesign"
+            // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
               image="/images/Services/graphics_design.png"
@@ -80,23 +80,12 @@ export default function Services() {
               link="#"
             />
           </a>
-        </div>
+          {/* </div> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"> */}
           <a
             href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
-          >
-            <Card
-              image="/images/Services/adver.png"
-              title=" Ads & Publishing"
-              description="An innovation-based comprehensive set of services and solutions to help..."
-              link="#"
-            />
-          </a>
-          <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
+            // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
               image="/images/Services/Websitedesign.png"
@@ -107,57 +96,7 @@ export default function Services() {
           </a>
           <a
             href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
-          >
-            <Card
-              image="/images/Services/seo.png"
-              title="SEO"
-              description="Prove your brand name and stand out from the competition on the search ...."
-              link="#"
-            />
-          </a>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
-          >
-            <Card
-              image="/images/Services/marketing.png"
-              title="Marketing Strat"
-              description="An innovation-based comprehensive set of services and solutions to help..."
-              link="#"
-            />
-          </a>
-          <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
-          >
-            {' '}
-            <Card
-              image="/images/Services/social.png"
-              title="Social Media Mktg"
-              description="Gain website traffic, gather attention and promote your marketing effort..."
-              link=""
-            />
-          </a>
-          <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
-          >
-            <Card
-              image="/images/Services/video_animation.png"
-              title="Video & Anim"
-              description="Convey a rich message and catch your audience’s attention with ...."
-              link="#"
-            />
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
+            // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
               image="/images/Services/email.png"
@@ -166,37 +105,40 @@ export default function Services() {
               link="#"
             />
           </a>
-          {/* <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
-          >
-            <Card
-              image="/images/Services/sms.png"
-              title="SMS Mktg"
-              description="Reach out to your customers, potential customers, or any other contact ..."
-              link=""
-            />
-          </a> */}
           <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
+            href="/services/adspublishing"
+            // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
-              image="/images/Services/whatsapp.png"
-              title="Whatsapp Mktg"
-              description="WhatsApp is the most popular alternative to SMS in 109 countries ...."
+              image="/images/Services/adver.png"
+              title=" Ads & Publishing"
+              description="An innovation-based comprehensive set of services and solutions to help..."
               link="#"
             />
           </a>
+
           <a
-            href="/"
-            className="transform transition-transform duration-500 hover:scale-110"
+            href="/services/seo"
+            // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
-              image="/images/Services/photography.png"
-              title="Product Photography"
-              description="We take photos that are worth a thousand words as we catch the..."
+              image="/images/Services/seo.png"
+              title="SEO"
+              description="Prove your brand name and stand out from the competition on the search ...."
               link="#"
+            />
+          </a>
+
+          <a
+            href="/services/socialmediamarketing"
+            // className="transform transition-transform duration-500 hover:scale-110"
+          >
+            {' '}
+            <Card
+              image="/images/Services/social.png"
+              title="Social Media Mktg"
+              description="Gain website traffic, gather attention and promote your marketing effort..."
+              link=""
             />
           </a>
         </div>
