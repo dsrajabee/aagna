@@ -52,8 +52,8 @@ export default function Adspublishing() {
       <div className="container mx-auto pb-4 text-white items-center justify-around w-3/4 mt-16">
         <p className="text-white pb-4 ">
           Aagna Creatives offers comprehensive Advertising and Publishing
-          services designed to boost your brand's visibility and impact. Whether
-          it's crafting compelling ad campaigns or publishing engaging content,
+          services designed to boost your brands visibility and impact. Whether
+          its crafting compelling ad campaigns or publishing engaging content,
           we provide tailored solutions to effectively communicate your message
           and connect with your target audience. Our services include:
         </p>
