@@ -55,8 +55,9 @@ export default function Home() {
           By creating a strong identity, your company stands out as one of a
           kind. If your products and services offer something of value to
           consumers, your brand communicates why they should buy your product
-          instead of your competitor's. Our process for helping you create a
-          meaningful brand identity and experience includes the following steps:
+          instead of your competitor&apos;s. Our process for helping you create
+          a meaningful brand identity and experience includes the following
+          steps:
         </p>
 
         <div className="mb-3">
@@ -91,7 +92,7 @@ export default function Home() {
           <p>
             Part of our marketing strategy includes helping your audience
             identify your brand. We use your logo, tagline and message in all
-            hard-copy and digital marketing collateral. Wherever you go – your
+            hard-copy and digital marketing collateral. Wherever you go - your
             website, social media, print ads, etc. - your brand will be the
             first thing that people recognize. This solidifies your position in
             the marketplace.
@@ -118,9 +119,10 @@ export default function Home() {
           </h2>
           <p>
             Regardless of how much strategy you put into marketing your brand,
-            every campaign's execution must be as effective as the planning. We
-            look at every detail to ensure that every launch is successful by
-            providing you with the brand materials and support you need.
+            every campaign&apos;s execution must be as effective as the
+            planning. We look at every detail to ensure that every launch is
+            successful by providing you with the brand materials and support you
+            need.
           </p>
         </div>
 

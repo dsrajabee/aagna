@@ -51,7 +51,7 @@ export default function BusinessConsulting() {
 
       <div className="container mx-auto flex items-center justify-around w-3/4 mt-16">
         <h1 className="text-white pb-4 ">
-          Our Business Consulting Services address a company's end-to-end
+          Our Business Consulting Services address a company&apos;s end-to-end
           business needs. We provide comprehensive services to support your
           business to drive people, process and technology considerations.
         </h1>
@@ -136,8 +136,8 @@ export default function BusinessConsulting() {
         </h2>
         <p className="mb-4">
           Our mission is to provide comprehensive business consulting services
-          that address a company's end-to-end business needs. We aim to support
-          your business by driving people, process, and technology
+          that address a company&apos;s end-to-end business needs. We aim to
+          support your business by driving people, process, and technology
           considerations.
         </p>
         <p className="mb-4">
@@ -174,7 +174,7 @@ export default function BusinessConsulting() {
         <p>
           To enable our clients to attain sustainable and profitable growth by
           deploying disciplined strategic and operational transformation
-          activities and safeguarding the wealth and health of the client's
+          activities and safeguarding the wealth and health of the client&apos;s
           organization.
         </p>
       </div>
