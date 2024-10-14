@@ -51,7 +51,7 @@ export default function Services() {
           >
             {' '}
             <Card
-              image="/images/Services/branding1.png"
+              image="/images/Services/buisness_counsulting.jpg"
               title="Business Consulting"
               description="A Logo is a design symbolizing one's organization. It is a design..."
               link=""
@@ -63,7 +63,7 @@ export default function Services() {
           >
             {' '}
             <Card
-              image="/images/Services/branding1.png"
+              image="/images/Services/branding_banner.jpg"
               title="Branding"
               description="A Logo is a design symbolizing one's organization. It is a design..."
               link=""
@@ -74,7 +74,7 @@ export default function Services() {
             // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
-              image="/images/Services/graphics_design.png"
+              image="/images/Services/creative_graphic.jpg"
               title="Creative Graphic Design"
               description="Modern and innovative graphic designs that drive customers' attention ...."
               link="#"
@@ -88,7 +88,7 @@ export default function Services() {
             // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
-              image="/images/Services/Websitedesign.png"
+              image="/images/Services/web_dev.jpg"
               title="Web Design & Dev"
               description="Empower your brand and enrich your user’s experience with a highly..."
               link=""
@@ -99,7 +99,7 @@ export default function Services() {
             // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
-              image="/images/Services/email.png"
+              image="/images/Services/mobile_app.jpg"
               title="Mobile App Development"
               description="Carry out your digital promotions and marketing campaigns through highly..."
               link="#"
@@ -110,7 +110,7 @@ export default function Services() {
             // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
-              image="/images/Services/adver.png"
+              image="/images/Services/ads_pup.jpg"
               title=" Ads & Publishing"
               description="An innovation-based comprehensive set of services and solutions to help..."
               link="#"
@@ -122,7 +122,7 @@ export default function Services() {
             // className="transform transition-transform duration-500 hover:scale-110"
           >
             <Card
-              image="/images/Services/seo.png"
+              image="/images/Services/seo.jpg"
               title="SEO"
               description="Prove your brand name and stand out from the competition on the search ...."
               link="#"
@@ -135,7 +135,7 @@ export default function Services() {
           >
             {' '}
             <Card
-              image="/images/Services/social.png"
+              image="/images/Services/socialmedia.jpg"
               title="Social Media Mktg"
               description="Gain website traffic, gather attention and promote your marketing effort..."
               link=""
